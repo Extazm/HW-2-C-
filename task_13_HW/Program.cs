@@ -5,7 +5,7 @@
 Console.WriteLine("Введите числецо");
 int numb = Convert.ToInt32(Console.ReadLine());
 int lng = numb.ToString().Length;
-Console.WriteLine($"В числе {lng} цифр");
+Console.Write($"В числе {lng} цифр; ");
 if (lng > 2)
 {
     int blabla = Convert.ToInt32(Math.Pow(10, (lng - 3)));
